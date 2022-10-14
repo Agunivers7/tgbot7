@@ -6,7 +6,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
+    API_KEY = "2103300889:AAEVZd_cAFHdJDU-hAYOdYtwALFwACETP2A"
     OWNER_ID = "1323557247"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "Spoidermon12"
 
