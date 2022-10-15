@@ -1,17 +1,11 @@
 
-
-
-# Create a new config.py file in same dir and import, then extend this class.
-class Config(object):
-    LOGGER = True
-
     # REQUIRED
     API_KEY = "2103300889:AAEVZd_cAFHdJDU-hAYOdYtwALFwACETP2A"
     OWNER_ID = "1323557247"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "Spoidermon12"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgres://jvxgctfh:1Jf49IZA-vGumNNojNaLeOHCnMC6yfRn@tyke.db.elephantsql.com/jvxgctfh'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://apex:aadhi@8.219.177.252:5432/apexdb'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
